@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data</title>
+    <style>
+        body
+        {
+            text-align: center;
+            background-color: rgb(86, 167, 243);
+        }
+        form
+        {
+            text-align: center;
+            margin: 10px;
+            margin-left: 500px;
+            margin-top: 150px;
+            border: 2px solid black;
+            width: 400px;
+            background-color: rgb(27, 209, 245);
+        }
+    </style>
+</head>
+<body>
+    <form action="./process.php" method="post">
+        <link href="./ds.sql">
+        <br>
+        NAME:- <input required type="text" placeholder="name" name="fname"> 
+        <br>
+        <br>
+        EMAIL:- <input required type="email" placeholder="abc@gmail.com" name="email">
+        <br>
+        <br>
+        PASSWORD:- <input required type="password" placeholder="password" name="password">
+        <br>
+        <br>
+        CONFIRM PASSWORD:- <input required type="password" placeholder="confirm password" name="cpassword">
+        <br>
+        <br>
+        CONTACT NUMBER:- <input required type="number" placeholder="contact number" name="Cnumber">
+        <br>
+        <br>
+        MALE<input type="radio" placeholder="male" name="gender" value="male">
+        FEMALE<input type="radio" placeholder="female" name="gender" value="female">
+        <br>
+        <br>
+     <button type="submit">sign up</button>
+     <br>
+     <br>
+    </form>
+</body>
+</html>
